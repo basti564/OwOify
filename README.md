@@ -2,7 +2,7 @@
 ## Intro
 This extension literally replaces Google with OwO
 ## Releases
-- Binaries and Changelogs are available on [GitHub](https://github.com/basti564/MNSPlusTrasher/releases) and in the [Chrome Web Store](https://chrome.google.com/webstore/detail/owoify/fbknjhmbihlfnbonnaehaofdlfalfcme)
+- Binaries and Changelogs are available on [GitHub](https://github.com/basti564/OwOify/releases), in the [Chrome Web Store](https://chrome.google.com/webstore/detail/owoify/fbknjhmbihlfnbonnaehaofdlfalfcme) and soon in the Firefox add-on store
 ## Source code
 - This project is completely open source and it will be kept like it in the future
 - The source code can be found [here](https://github.com/basti564/MNSPlusTrasher) on GitHub
