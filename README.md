@@ -10,7 +10,8 @@ This extension literally replaces Google with OwO
 - Replaces the Google logo on google.com and google.com/search with OwO
 - Replaces "google" with OwO
 - Replaces "Gmail" with OwOmail
-- Replaces "Privacy policy" with "Privacidad" (idk why)
+- Replaces "How Search works" with "How OwO works"
+- Replaces "I'm feeling ..." with "I'm feeling OwO"
 ## TODO
 - Add more words to replace
 ## Screenshot

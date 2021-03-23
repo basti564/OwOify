@@ -22,7 +22,8 @@ var replaceArry = [
 	[/google/gi,'OwO'],
 	[/Google/gi,'OwO'],
 	[/Gmail/gi,'OwOmail'],
-	[/Privacy policy/gi,'Privacidad'],
+	[/How Search works/gi,'How OwO works'],
+	[/I'm feeling \w+/gi,'I\'m feeling OwO']
 ];
 var numTerms = replaceArry.length;
 var txtWalker = document.createTreeWalker (
