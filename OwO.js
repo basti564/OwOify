@@ -4,7 +4,6 @@ if (window.location.href == "https://www.google.com/"){
 	var oldLogo = document.getElementById('hplogo');
 	var newLogo = document.createElement('img');
 	newLogo.id = "User-Logo";
-	newLogo.border = 'no'
 	newLogo.src = "https://i.ibb.co/GHzBb1G/Ow-O-272x92dp.png"
 	oldLogo.parentNode.replaceChild(newLogo, oldLogo);
 }
@@ -13,7 +12,6 @@ if (window.location.href.substring(0,30) == "https://www.google.com/search?"){
 	var oldLogo = document.getElementById('logo');
 	var newLogo = document.createElement('img');
 	newLogo.id = "User-Logo";
-	newLogo.border = 'no'
 	newLogo.src = "https://i.ibb.co/cCWTKTX/Ow-O-92x30dp.png"
 	oldLogo.parentNode.replaceChild(newLogo, oldLogo);
 }
