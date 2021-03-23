@@ -5,8 +5,7 @@
   "version": "0.0.2",
   "icons": {"128": "icon_128.png"},
   "browser_action": {
-    "default_icon": "icon.png",
-    "default_popup": "popup.html"
+    "default_icon": "icon.png"
   },
   "permissions": ["activeTab"],
   "content_scripts": [{
