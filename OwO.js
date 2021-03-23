@@ -15,6 +15,9 @@ if (window.location.href.substring(0,30) == "https://www.google.com/search?"){
 	newLogo.src = "https://i.ibb.co/cCWTKTX/Ow-O-92x30dp.png"
 	newLogo.height="30";
 	newLogo.width="92";
+	newLogo.onclick = function() {
+		window.location.href = 'https://www.google.com/';
+	};
 	oldLogo.parentNode.replaceChild(newLogo, oldLogo);
 }
 
