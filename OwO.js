@@ -13,6 +13,8 @@ if (window.location.href.substring(0,30) == "https://www.google.com/search?"){
 	var newLogo = document.createElement('img');
 	newLogo.id = "User-Logo";
 	newLogo.src = "https://i.ibb.co/cCWTKTX/Ow-O-92x30dp.png"
+	newLogo.height="30";
+	newLogo.width="92";
 	oldLogo.parentNode.replaceChild(newLogo, oldLogo);
 }
 
