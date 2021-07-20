@@ -1,6 +1,6 @@
 document.title = "OwO"
 
-if (window.location.href.substring(0, 30) == "https://www.google.com/search?") {
+if (window.location.href.match(/https?:\/\/www\.google\.[^\/]*\/search\?/)) {
 	try {
 		var oldLogo = document.getElementById('logo');
 		var newLogo = document.createElement('img');
@@ -15,7 +15,7 @@ if (window.location.href.substring(0, 30) == "https://www.google.com/search?") {
 	} catch (e) {
 		console.log(`Error overwriting search Google logo: ${e}`);
 	}
-} else if (window.location.href.substring(8, 22) == "www.google.com") {
+} else if (window.location.href.match(/https?:\/\/www\.google\.[^\/]*\//)) {
 	try {
 		var oldLogo = document.getElementsByClassName('lnXdpd')[0];
 		var newLogo = document.createElement('img');
